@@ -31,3 +31,4 @@ funcName = "Muskaan"
 print(len(funcName))
 print(funcName.endswith("an"))
 print(funcName.find("a"))
+
