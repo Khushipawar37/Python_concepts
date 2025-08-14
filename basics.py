@@ -22,3 +22,10 @@ print(type(flIn))
 namee = input("Enter your name : ")
 print("Hi, " + namee)
 
+nameShort = name[0:3]
+print(nameShort)
+
+funcName = "Muskaan"
+print(len(funcName))
+print(funcName.endswith("an"))
+print(funcName.find("a"))
