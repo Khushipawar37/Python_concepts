@@ -23,6 +23,8 @@ namee = input("Enter your name : ")
 print("Hi, " + namee)
 
 nameShort = name[0:3]
+nameSliced = name[:4]
+print(nameSliced)
 print(nameShort)
 
 funcName = "Muskaan"
