@@ -39,3 +39,9 @@ sett = {1,2,2,2,3,3,4,5}
 print(sett)
 sett.add(7)
 print(sett)
+
+s1 = {1,2,3,4,5}
+s2 = (4,5,6,7)
+
+print(s1.union(s2))
+print(s1.intersection(s2))
