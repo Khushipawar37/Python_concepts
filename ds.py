@@ -10,7 +10,7 @@ listt.insert(3,89)
 print(listt)
 
 
-tuplee = (87, "khushi", False, 89)
+tuplee = (87, "khushi", False, 89 ,32 , 89)
 
 print(tuplee)
 print(type(tuplee))
