@@ -31,3 +31,11 @@ print(dicti.keys())
 
 dicti.update({"a" : 30,"d": 55})
 print(dicti)
+
+
+e = set()
+
+sett = {1,2,2,2,3,3,4,5}
+print(sett)
+sett.add(7)
+print(sett)
