@@ -8,3 +8,11 @@ listt.append(34)
 print(listt)
 listt.insert(3,89)
 print(listt)
+
+
+tuplee = (87, "khushi", False, 89)
+
+print(tuplee)
+print(type(tuplee))
+
+print(tuplee.count(89))
