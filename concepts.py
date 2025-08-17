@@ -9,3 +9,7 @@ else:
     print("Not an adult")
 
 print("Program ends")
+
+
+for i in range(1,6):
+    print(i)
