@@ -1,3 +1,5 @@
+#List
+
 listt = ["Khushi", 59, 37.3, "Harsh"]
 
 print(listt[0])
@@ -10,6 +12,8 @@ listt.insert(3,89)
 print(listt)
 
 
+#tuple
+
 tuplee = (87, "khushi", False, 89 ,32 , 89)
 
 print(tuplee)
@@ -18,6 +22,7 @@ print(type(tuplee))
 print(tuplee.count(89))
 
 
+#Dictionary
 
 dicti = {
     "a" : 99,
@@ -32,6 +37,7 @@ print(dicti.keys())
 dicti.update({"a" : 30,"d": 55})
 print(dicti)
 
+#Set
 
 e = set()
 
