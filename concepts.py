@@ -25,3 +25,13 @@ for i in range(0,40,4):
 s = "Khushi"
 for i in (s):
     print(i)
+
+for i in range(100):
+    if(i == 12):
+        break
+    print(i)
+
+for i in range(10):
+    if( i == 3 or i == 7):
+        continue
+    print(i)
