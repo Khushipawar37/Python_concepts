@@ -12,3 +12,16 @@ print("Program ends")
 
 for i in range(1,6):
     print(i)
+
+j = 0
+
+while(j < 5):
+    print(j)
+    j +=1
+
+for i in range(0,40,4):
+    print(i)
+
+s = "Khushi"
+for i in (s):
+    print(i)
