@@ -1,37 +1,45 @@
-a = int(input("Enter your age: "))
+# a = int(input("Enter your age: "))
 
-if(a >= 18):
-    print("Adult")
+# if(a >= 18):
+#     print("Adult")
 
-elif(a < 0):
-    print("Invalid age")
-else:
-    print("Not an adult")
+# elif(a < 0):
+#     print("Invalid age")
+# else:
+#     print("Not an adult")
 
-print("Program ends")
+# print("Program ends")
 
-for i in range(1,6):
-    print(i)
+# for i in range(1,6):
+#     print(i)
 
-j = 0
+# j = 0
 
-while(j < 5):
-    print(j)
-    j +=1
+# while(j < 5):
+#     print(j)
+#     j +=1
 
-for i in range(0,40,4):
-    print(i)
+# for i in range(0,40,4):
+#     print(i)
 
-s = "Khushi"
-for i in (s):
-    print(i)
+# s = "Khushi"
+# for i in (s):
+#     print(i)
 
-for i in range(100):
-    if(i == 12):
+# for i in range(100):
+#     if(i == 12):
+#         break
+#     print(i)
+
+# for i in range(10):
+#     if( i == 3 or i == 7):
+#         continue
+#     print(i)
+
+n = (int)(input("Enter a number: "))
+for i in range(2,n):
+    if(n % i) == 0:
+        print("Not prime")
         break
-    print(i)
-
-for i in range(10):
-    if( i == 3 or i == 7):
-        continue
-    print(i)
+else :
+    print("Prime no")
