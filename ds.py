@@ -22,17 +22,17 @@ print(type(tuplee))
 print(tuplee.count(89))
 
 
-#Dictionary
+#Dictionary  
 
 dicti = {
     "a" : 99,
-    "b" : 87,
+    "b" : 87,   
     "c" : 100,
 }
 
 print(dicti, type(dicti))
 print(dicti.items())
-print(dicti.keys())
+print(dicti.keys())  
 
 dicti.update({"a" : 30,"d": 55})
 print(dicti)
