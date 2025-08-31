@@ -26,7 +26,7 @@ s = "Khushi"
 for i in (s):
     print(i)
 
-for i in range(100):
+for i in range(100):  
     if(i == 12):
         break
     print(i)
@@ -39,7 +39,7 @@ for i in range(10):
 n = (int)(input("Enter a number: "))
 for i in range(2,n):
     if(n % i) == 0:
-        print("Not prime")
+        print("Not prime")  
         break
 else :
     print("Prime no")
