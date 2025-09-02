@@ -11,6 +11,6 @@ while(a != n):
         print("Lower number")
     elif(a < n):
         print("Higher number please")
-        guesses += 1
+    guesses += 1
 
 print(f"You guessed {n} after {guesses} guesses")
